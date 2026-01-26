@@ -1,1 +1,21 @@
+## Architecture Diagram (ASCII)
 
+          Internet
+             |
+             v
+       +----------------+
+       |  ALB: web-alb  |
+       +----------------+
+           |        |
+           v        v
+   +----------------+  +----------------+
+   | EC2 Instance 1 |  | EC2 Instance 2 |
+   |  (NGINX)      |  |  (NGINX)      |
+   +----------------+  +----------------+
+           |        |
+           +--------+
+           |
+       Target Group: web-tg
+           |
+           v
+   Auto Scaling Group: web-asg
