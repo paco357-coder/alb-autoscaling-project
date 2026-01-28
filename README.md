@@ -1,7 +1,7 @@
 # ALB + Auto Scaling + NGINX Project
 
 ## Overview
-This project demonstrates a simple web application deployment on AWS using:
+High-Availability Web App with AWS ALB & Auto Scaling – Demonstrates scalable, load-balanced infrastructure using EC2, ALB, and ASG.
 
 - Application Load Balancer (ALB)
 - Auto Scaling Group (ASG)
