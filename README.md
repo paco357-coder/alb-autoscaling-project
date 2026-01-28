@@ -16,12 +16,10 @@ The setup ensures high availability and automatic scaling.
 Auto Scaling configured to maintain 2–4 instances; scales out based on healthy target count or traffic increase.
 
 ## Steps Performed
-1. Created a security group `web-sg` allowing HTTP (80) and SSH (22).  
-2. Created a launch template `nginx-template` with User Data to install NGINX.  
-3. Created a target group `web-tg` for ALB health checks.  
-4. Created Auto Scaling Group `web-asg` with 2 instances attached to `web-tg`.  
-5. Created an Internet-facing ALB `web-alb` attached to `web-tg`.  
-6. Verified instances are healthy and NGINX serves the HTML page via ALB.
+1) Create launch template with userdata to install NGINX
+2) Create target group for ALB health checks
+3) Set up Auto Scaling Group
+4) Verify instances healthy under ALB
 
 ## Screenshots
 - Auto Scaling Group Overview: ![ASG](screenshots/asg.png)  
