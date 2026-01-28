@@ -22,10 +22,10 @@ Auto Scaling configured to maintain 2–4 instances; scales out based on healthy
 4) Verify instances healthy under ALB
 
 ## Screenshots
-- Auto Scaling Group Overview: 
-- Target Group Healthy Status:
-- Launch Template Details: 
-- Browser Showing NGINX via ALB: 
+•	Auto Scaling Group Overview: https://github.com/paco357-coder/alb-autoscaling-project/blob/main/autoscaling%20group.png
+•	Target Group Healthy Status: https://github.com/paco357-coder/alb-autoscaling-project/blob/main/target%20group%20healthy.png
+•	Launch Template Creation Details: https://github.com/paco357-coder/alb-autoscaling-project/blob/main/launch%20template.png
+
 
 ## Notes
 - All resources are in the **default VPC**.  
