@@ -3,6 +3,10 @@
 ## Overview
 High-Availability Web App with AWS ALB & Auto Scaling – Demonstrates scalable, load-balanced infrastructure using EC2, ALB, and ASG.
 
+ALB	Distributes traffic and provides health checks
+Auto Scaling Group	Automatically adds/removes EC2 instances based on load
+EC2 (Amazon Linux 2 + NGINX)	Hosts the web app
+
 - Application Load Balancer (ALB)
 - Auto Scaling Group (ASG)
 - NGINX on Amazon Linux 2
