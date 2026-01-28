@@ -34,3 +34,6 @@ Auto Scaling configured to maintain 2–4 instances; scales out based on healthy
 - Instances automatically receive public IPv4 addresses.  
 - NGINX is installed and enabled at launch.  
 - This setup can scale automatically and supports high availability.
+-  Security group allows HTTP (80) and SSH (22)
+- All public instances receive IPv4 addresses
+- Could be improved by placing instances in private subnets with a NAT gateway
