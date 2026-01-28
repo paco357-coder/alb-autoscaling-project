@@ -13,6 +13,7 @@ EC2 (Amazon Linux 2 + NGINX)	Hosts the web app
 - Default VPC
 
 The setup ensures high availability and automatic scaling.
+Auto Scaling configured to maintain 2–4 instances; scales out based on healthy target count or traffic increase.
 
 ## Steps Performed
 1. Created a security group `web-sg` allowing HTTP (80) and SSH (22).  
